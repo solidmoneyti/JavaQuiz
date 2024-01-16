@@ -26,12 +26,39 @@ button {
   transition: background-color 0.1s;
 }
 
+.btn {
+  display: inline-block;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 100%;
+  background-color: #563d7c;
+  border-radius: 5px;
+  padding: 2px 10px;
+  color: white;
+  border: 0;
+  transition: background-color 0.1s;
+}
+
 button:hover {
   background-color: #8570a5;
 }
 
-.choices button {
-  display: block;
+.choices {
+  display: flexbox;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 100%;
+  text-align: left;
+  background-color: #563d7c;
+  border-radius: 5px;
+  padding: 2px 10px;
+  color: white;
+  border: 0;
+  transition: background-color 0.1s;
+}
+
+.choices:hover {
+  background-color: #8570a5;
 }
 
 input[type="text"] {
@@ -62,6 +89,8 @@ li:nth-child(odd) {
   display: none;
 }
 
+
+
 .start {
   text-align: center;
 }
@@ -86,3 +115,4 @@ li:nth-child(odd) {
   top: 10px;
   right: 10px;
 }
+
